@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap');
+
+h1,h2,h3,h4,h5,h6{
+ font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+	font-style: normal;	
+	}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+
+header { 
+	background-color: #000;
+	
+	}
+
+#hero{
+	background-image: url("../img/PSX_20201015_132234.jpg");
+	background-size: cover;
+	background-position: center;
+	background-color: rgba(0,0,0,0.35);
+	background-blend-mode: multiply;
+	padding: 20% 0;
+}
+
+#hero h1,
+hero p {
+	color: #fff; 
+
+}
+
+#hero h1{
+	font-size: 110px;
+	font-weight: 700;
+	text-align: center;
+	
+}
+
+
+#good-night{
+	background-color: #000;
+	text-align: center;
+	padding: 15% 0;
+}
+
+#good-night h3{
+	font-family: "Noto Serif", serif;
+	font-weight: 400;
+	font-style: italic;
+	color: #fff;
+	font-size: 35px;
+}
+
+
+
+
+
+#hero p{
+	font-size: 40px;
+	color: #fff;	
+	}
+
+#sobre-mi{
+	padding: 5% 0;
+}
+
+
+#sobre-mi h4 { 
+	color: var(--color-titulos);
+	font-size: 50px;
+	
+}
+
+#sobre-mi p{
+	font-size: 16px;
+	font-weight: 500;
+	text-align: left;
+}
+
+
+#heroe{
+	background-image: url("../img/1.png");
+	background-size: cover;
+	background-position: center;
+	background-color: rgba(0,0,0,0.35);
+	background-blend-mode: multiply;
+	padding: 20% 0;
+}
+
+
+#heroe h1{
+	font-size: 110px;
+	font-weight: 700;
+	margin-bottom: 5%;
+	text-align: center;
+	color: #fff;
+	
+}
+
+.sobre-text{
+padding-top: 30%;
+}
+
+#heroes{
+	background-image: url("../img/Marco-Publi-post-7.jpg");
+	background-size: cover;
+	background-position: center;
+	background-color: rgba(0,0,0,0.35);
+	background-blend-mode: multiply;
+	padding: 20% 0;
+}
+
+#heroes h1{
+	font-size: 110px;
+	font-weight: 700;
+	margin-bottom: 5%;
+	text-align: center;
+	color: #fff;
+}
+
+#heroes p{
+	font-size: 40px;
+	color: #fff;
+}
+
+#contact-info{
+	padding: 5% 0;
+}
+
+.btn{
+	padding: 18px 40px;
+	border-radius: 0;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	border-color: transparent;
+	background-color: #000;
+	color: #fff;
+	
+}
+
+.btn-mensaje:hover{
+	background-color: #fff;
+	color: #000;
+	}
+
+
+#lider{
+	font-size: 110px;
+	font-weight: 700;
+	margin-bottom: 5%;
+	text-align: center;
+	color: #fff;
+	background-image: url("../img/IMG_2468.JPG");
+	background-size: cover;
+	background-position: center;
+	background-color: rgba(0,0,0,0.35);
+	background-blend-mode: multiply;
+	padding: 20% 0;
+}
+
+#lider h1{
+	font-size: 110px;
+	font-weight: 700;
+	text-align: center;
+	color: #fff;
+}
+
+#lider p{
+	font-size: 40px;
+}
